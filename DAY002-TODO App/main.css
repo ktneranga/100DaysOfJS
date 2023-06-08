@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b87ff;
+}
+
+.container {
+  width: 90%;
+  max-width: 34em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/* .container * {
+  font-family: "Poppins", sans-serif;
+} */
+
+#new-task {
+  background-color: #fff;
+  position: relative;
+  padding: 1.8em 1.25em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1em;
+}
+
+#new-task input {
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #d1d3d4;
+  padding: 0.8em 0.5em;
+  color: #111111;
+  font-weight: 500;
+}
+
+#new-task input:focus {
+  outline: none;
+  border-color: #0b87ff;
+}
+
+#new-task button {
+  background-color: #0b87ff;
+  border: none;
+  outline: none;
+  border-radius: 0.3em;
+  font-size: 1em;
+  font-weight: 500;
+  color: #ffff;
+  cursor: pointer;
+}
+
+#tasks {
+  background-color: #ffff;
+  position: relative;
+  margin-top: 3.8em;
+  border-radius: 0.6em;
+  padding: 1.8em 1.25em;
+  border: 1px solid black;
+  box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+}
+
+.task {
+  background-color: #ffff;
+  padding: 0.4em 0.6em;
+  margin-top: 0.6em;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+
+.task p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.task button {
+  color: #fff;
+  padding: 0.9em 0.3;
+  width: 2em;
+  height: 2em;
+  border: none;
+  border-radius: 0.3em;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.task .edit {
+  margin-left: auto;
+  background-color: #0b87ff;
+}
+
+.task .delete {
+  background-color: red;
+}
