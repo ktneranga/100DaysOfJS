@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   background-color: #0b87ff;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
