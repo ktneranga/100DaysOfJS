@@ -39,7 +39,7 @@ const insertIntoDb = async (data, s3FileUrl) => {
   const connection = await mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Tnk**14234321",
+    password: "",
     database: "sygnamax",
     port: "3306",
   });
