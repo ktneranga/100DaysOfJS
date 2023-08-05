@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f8ff;
+}
+
+.container {
+  background-color: #ffff;
+  width: 60%;
+  max-width: 37.5em;
+  padding: 3.12em 1.87em;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 1em;
+  box-shadow: 0 1.25em 3.43em rgba(0, 0, 0, 0.08);
+  border-radius: 0.5em;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: relative;
+  padding: 20px;
+  background-color: #025bee;
+  color: #ffff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto 1em auto;
+  text-align: center;
+  width: 16em;
+  font-size: 1.1em;
+}
+
+#error {
+  text-align: center;
+  color: red;
+}
+
+.active {
+  border: 3px dashed #025bee;
+}
+
+#imageDisplay {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+#imageDisplay figure {
+  width: 45%;
+}
+
+#imageDisplay img {
+  width: 100%;
+}
+
+#imageDisplay figcaption {
+  font-size: 12px;
+  text-align: center;
+}
